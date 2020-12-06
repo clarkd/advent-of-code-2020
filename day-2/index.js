@@ -2,7 +2,7 @@ const input = require('./input');
 const numbers = input.trim().split('\n');
 
 const part1 = () => {
-    console.log("=== Day 2: Part 2 ===");
+    console.log("=== Day 2: Part 1 ===");
     const valid = numbers.filter(p => {
         const [policy, password] = p.split(': ');
         const [counts, letter] = policy.split(' ');
